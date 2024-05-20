@@ -1,0 +1,569 @@
+/*общие настройки*/
+body{
+    font-family: Poppins;
+}
+.page{
+    width: 1440px;
+    margin: auto;
+}
+/*первая страница*/
+.banner{
+    padding: 0 122px;
+    height: 900px;
+    background-image: url(./images/Rectangle\ 11.png), url(./images/Mask\ Group.png) ;
+    background-repeat: no-repeat, no-repeat;
+    background-blend-mode: screen;
+}
+header{
+    
+    padding-top: 32px;
+}
+    .logo li a{
+        height: 50px; 
+    }
+    .header-list li{
+        list-style: none;
+    }
+    .header-list li{
+        display: flex;
+    }
+    .header-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+        .list{
+            display: flex;
+            justify-content: space-between;
+        }
+        .menu {
+            display: flex;
+        }
+        .menu li a{
+            color: #fff; font-size: 0.9em; text-decoration: none; padding: 15px 25px; display: block; letter-spacing: 0.02em; font-weight: 400; opacity: 0.7;
+        }
+        .button1{
+            display: flex;  
+        }
+        .button1 p a{
+            color: #fff; font-size: 0.9em; text-decoration: none; ; border: 1px #fff solid; border-radius: 50px; width: 127px; padding:10px 40px; font-weight: 400; letter-spacing: 0.05em;
+        }
+        a:hover.sign-up{
+            background-color: #A856DA; border-color: #A856DA;
+        }
+.main-content{
+    display: flex;
+}
+.main-content{
+    padding-top: 70px;
+}
+    .group-text{
+        width: 650px;
+    }
+        .people{
+            display: flex;
+        }
+        .people img{
+            padding-right: 15px; padding-left: 15px; padding-top: 25px;
+        }
+        .people p{
+            color: #fff; font-size: 18;  
+        }
+        .main-content-text{
+            display: flex;
+            flex-direction: column;
+        }
+        .main-content-text h1{
+            color: #fff; font-size: 4em; font-weight: bold; height: 188px; margin-top: 25px; line-height: 1.2; font-weight: 600;
+        }
+        .main-content-text p{
+            color: #fff; font-size: 1em; margin-top: 5px; margin-bottom: 5px; opacity: 0.7; font-weight: 400; line-height: 175%; letter-spacing: 0.06em;
+        }
+        .main-content-text p1 a{
+            color: #fff; font-size: 14; text-decoration: none; border: 1px #fff solid; border-radius: 50px; width: 166px; padding: 15px 24.5px;
+        }
+        .button{
+            display: flex;
+            justify-content: flex-start;
+            gap: 8px;
+            padding-top: 38px;
+            padding-bottom: 63px;
+        }
+        .button p{
+            font-weight: 500; font-size: 14px; letter-spacing: 0.03em; color: #fff;
+        }
+        .start{
+            display: flex;
+            justify-content: center;
+        }
+        a:hover.start{
+            background-color: #A856DA; border-color: #A856DA;
+        }
+        .feedback{
+            display: flex;
+            flex-direction: column;
+        }
+        .feedback p{
+            color: #fff; font-size: 14;
+        }
+        .feedback a{
+            padding-right: 0;
+        }
+        .media{
+            display: flex;
+            align-items: center;
+        }
+        .spotify{
+            margin-right: 33px;
+        }
+        .apple-podcasts{
+            margin-right: 33px;
+        }
+        .youtube{
+            margin-right: 33px;
+        }
+/*главные страницы*/
+.main-pages{
+    background: #fff;
+} 
+/*объявления 2 страница*/  
+.announcement{
+    padding: 0 122px;   
+} 
+.announcement{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 100px;
+}
+headertype2{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+headertype2{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+    headertype2 p{
+        color: #000000; font-size: 2.2em;
+    }
+    headertype2 a{
+        color: #9224D6; font-size: 16; text-decoration: none;
+    }
+    .ads{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 34px;
+        padding-top: 60px;
+    }
+    .ads h2{
+        color: #000000; font-size: 1.25em;
+    }
+    .ads p1{
+        color: #000000; font-size: 1em;
+    }
+    .first-ad{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .second-ad{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .third-ad{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .fourth-ad{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .fifth-ad{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .sixth-ad{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .img-with-ep{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    .img-with-ep img{
+        position: absolute;
+    }
+        .img-with-ep p{
+            color: #fff; font-size: 1.25em; border: 1px solid #000000; border-top-left-radius: 10px; border-bottom-right-radius: 10px; background: #000000; padding: 15px 30px; position: relative; margin: 0 0; font-weight: 500; letter-spacing: 0.05em; 
+        }
+    .podtext{
+        display: flex;
+    }
+    .podtext img{
+        padding-right: 16px; padding-left: 12px; padding-top: 25px; 
+        filter: brightness(0);
+    }
+    .podtext p{
+        color: #000000; font-size: 1em;  
+    }
+    .begin{
+        display: flex;
+        align-items: center;
+    }
+    .begin{
+        margin-bottom: 100px;
+    }
+    .begin p{
+        color: #9224D6; font-size: 1em;  
+    }
+    .begin a {
+        text-decoration: none;
+    }
+    .begin p1{
+        color: #666666; font-size: 1em;
+    }
+    .begin img{
+        padding-right: 12px;
+    }
+    .go{
+        margin-right: 118px;
+    }
+/*хост 3 страница*/
+.meet-host{
+    display: flex;
+}
+.meet-host{
+    padding-right: 122px;
+    padding-left: 69px;
+}
+    .text{
+        display: flex;
+        flex-direction: column;
+    }
+    .text{
+        padding-left: 51px;
+    }
+        .text-block{
+            padding-bottom: 20%;
+        }
+            .text h1{
+                color: #000000; font-size: 2.5em; padding-bottom: 10px; font-weight: 400;
+            }
+            .text p{
+                color: #4D4D4D; font-size: 1em; 
+            }
+            .more {
+                text-decoration: none; color: #1C1B1E; font-size: 1em; padding: 20px 27px; border: 1px solid #1C1B1E; border-radius: 30px; 
+            }
+            a:hover.more{
+                color: #fff; border-color: #A856DA; background-color: #A856DA;
+            }
+/*топики 4 страница*/
+.topics{
+    padding: 0 122px;
+    padding-bottom: 100px;
+}
+    .topic-ad{
+        display: flex;
+        justify-content: space-between;
+    }
+        .topics h1{
+            color: #000000; font-size: 1.6em; font-weight: 500;
+        }
+        .topics p1{
+            color: #4D4D4D; font-size: 1em; text-decoration: none;
+        }
+/*e-mail 5 страница*/
+.keep-in-touch{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url(./images/Rectangle\ 11.png), url(./images/Mask\ Group.png) ;
+    background-repeat: no-repeat, no-repeat;
+    background-blend-mode: screen;
+    border-radius: 15px;
+    width: 1192px;
+    margin-left: 122px;
+}
+.keep-in-touch{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+}
+    .keep-in-touch h2{
+        color: #fff; font-size: 1.9em; font-weight: 500; text-align: center;
+    }
+    .keep-in-touch p{
+        color: #B9C0D5; font-size: 1em; text-align: center; padding-bottom: 50px; letter-spacing: 0.05em; font-weight: 400;
+    }
+        .email{
+            display: flex;
+            justify-content: center;
+        }
+        .email input{
+            color: #fff; background: transparent; font-size: 0.9em; outline: none; border: 1 #B9C0D5; border-radius: 5px; width: 340px; padding: 17px 25px; padding-right: 110px; position: relative; right: -50px; z-index: 1;
+        }
+        .email button{
+            z-index: 2;
+        }
+        .email input::placeholder{
+            color: #8A93B7;
+        }
+        .email button{
+                overflow: hidden;
+                padding: 20px 36px;
+                border-radius: 7px;
+                border-color: #B371DC;
+                background: #B371DC;
+                color: #fff;
+                position: relative;
+                display: inline-block;
+                cursor: pointer;
+            }
+            
+            .email button span {
+                position: relative;
+                transition: color 0.6s cubic-bezier(0.53, 0.21, 0, 1);
+            }
+            
+            .email button:before {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-color: #fff;
+                background: #fff;
+                transform: scaleX(0);
+                transform-origin: 100% 100%;
+                transition: transform 0.6s cubic-bezier(0.53, 0.21, 0, 1);
+            }
+            
+            .email button:hover::before {
+                transform-origin: 0 0;
+                transform: scaleX(1);
+            }
+        
+            .email button:hover span {
+                color: #000000;
+            }
+/*слайдер*/
+.wrapper {
+    padding-top: 120px;
+    width: 470px;
+    height: 300px;
+  }
+  .image-slider__image{
+    text-align: center;
+  }
+  .image-slider__image img{
+    max-width: 100%;
+  }
+  .image-slider .swiper-button-prev::after,
+  .image-slider .swiper-button-next::after{
+    color: #A856DA;
+    font-size: 80px;
+  }
+  
+  .mySwiper {
+    display: flex;
+    align-items: center;
+  }
+/*футер*/
+footer{
+    padding: 0 122px;
+    padding-top: 100px;
+}
+    footer .blocks-container{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 150px;
+    }
+    footer .blocks-container p{
+        color: #777678; font-size: 1em; width: 380px;  
+    }
+    footer .blocks-container h3{
+        color: #000000; font-size: 1em;
+    }
+    footer .blocks-container ul{
+        list-style: none;
+        padding-left: 0;
+    }
+    footer .blocks-container ul li{
+        color: #4D4D4D; font-size: 0.9em; margin-top: 23px; 
+    }       
+    footer .blocks-container ul li a{
+        color: #4D4D4D; text-decoration: none; 
+    }
+    .Sitemap{
+        width: 70px;
+    }
+    .Company{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+    }
+    .Contact{
+        display: flex;
+        flex-direction: column;
+        width: 164px;
+    }
+    .contacts{
+        display: flex;
+        gap: 25px;
+        align-items: center;
+    }
+    .contacts img{
+        filter: brightness(0);
+    }
+    .contacts p{
+        color: #000000; font-size: 0.9em; font-weight: 400;
+    }
+    footer .contacts a{
+        text-decoration: none;
+    }
+    footer hr{
+        margin-bottom: 32px;
+        background: #B3B3B3;
+        color: #B3B3B3;
+    }
+    .last-part{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .last-part p{
+        color: #949494; font-size: 0.9em;
+    }
+    .last-part p1{
+        color: #666666; font-size: 0.9em;
+    }
+/*адаптация*/
+@media screen and (max-width: 412px) { 
+    .page{
+        width: 412px;
+    }
+    .banner{
+        padding: 0 10px;
+        height: 2000px;
+        background-repeat: repeat-y, repeat-y;
+    }
+    header{
+        padding-top: 10px;
+    }
+        .logo li a{
+            height: 50px; 
+        }
+        .header-list li{
+            list-style: none;
+        }
+        .header-list li{
+            flex-direction: column;
+        }
+        .header-list{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+            .list{
+                display: flex;
+                flex-direction: column;
+            }
+            .menu {
+                display: flex;
+                flex-direction: column;
+            }
+            .menu li a{
+                font-size: 1.25em; opacity: 1;
+            }
+            .button1 p a{
+                width: 300px;  
+            }
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+.main-content{
+    padding-top: 70px;
+}
+    .group-text{
+        width: 650px;
+    }
+        .people{
+            display: flex;
+            justify-content: start;
+            padding-left: 50px;
+        }
+        .people p{
+            font-size: 20;  
+        }
+        .main-content-text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .main-content-text h1{
+            font-size: 2.5em; font-weight: bold; height: 188px; margin-top: 2px; line-height: 1.2; font-weight: 600;
+        }
+        .main-content-text p{
+            color: #fff; font-size: 1.5em; margin-top: 5px; margin-bottom: 5px; opacity: 0.7; font-weight: 400; line-height: 175%; letter-spacing: 0.06em;
+        }
+        .main-content-text p1 a{
+            color: #fff; font-size: 14; text-decoration: none; border: 1px #fff solid; border-radius: 50px; width: 166px; padding: 15px 24.5px;
+        }
+        .button{
+            display: flex;
+            justify-content: flex-start;
+            gap: 8px;
+            padding-top: 38px;
+            padding-bottom: 63px;
+        }
+        .button p{
+            font-weight: 500; font-size: 14px; letter-spacing: 0.03em; color: #fff;
+        }
+        .start{
+            display: flex;
+            justify-content: center;
+        }
+        a:hover.start{
+            background-color: #A856DA; border-color: #A856DA;
+        }
+        .feedback{
+            display: flex;
+            flex-direction: column;
+        }
+        .feedback p{
+            color: #fff; font-size: 14;
+        }
+        .feedback a{
+            padding-right: 0;
+        }
+        .media{
+            display: flex;
+            align-items: center;
+        }
+        .spotify{
+            margin-right: 33px;
+        }
+        .apple-podcasts{
+            margin-right: 33px;
+        }
+        .youtube{
+            margin-right: 33px;
+        }
+            
+}
