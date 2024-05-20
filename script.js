@@ -6,3 +6,12 @@ new Swiper('.image-slider', {
         prevEl: '.swiper-button-prev'
     },
 });
+
+new Swiper('.image-slider2',{
+    loop: true,
+    slidesPerGroup: 1,
+    spaceBetween: 0,
+    navigation: {
+        el : ".swiper-pagination"
+    }
+});

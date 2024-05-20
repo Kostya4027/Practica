@@ -6,6 +6,9 @@ body{
     width: 1440px;
     margin: auto;
 }
+html {
+    scroll-behavior: smooth;
+    }
 /*первая страница*/
 .banner{
     padding: 0 122px;
@@ -383,6 +386,9 @@ headertype2{
     display: flex;
     align-items: center;
   }
+.swiper-mySwiper2{
+    display: none;
+}
 /*футер*/
 footer{
     padding: 0 122px;
@@ -452,14 +458,24 @@ footer{
     .last-part p1{
         color: #666666; font-size: 0.9em;
     }
+    
 /*адаптация*/
-@media screen and (max-width: 412px) { 
+@media screen and (max-width: 430px) { 
+    body{
+        margin: 0 0;
+    }
+    .swiper-mySwiper2 {
+        display: block;
+        width: 380px;
+    }
     .page{
         width: 412px;
+        padding: 0px 0px;
     }
+    /*первая страница*/
     .banner{
-        padding: 0 10px;
-        height: 2000px;
+        padding: 0px 0px;
+        height: 1900px;
         background-repeat: repeat-y, repeat-y;
     }
     header{
@@ -487,6 +503,9 @@ footer{
                 display: flex;
                 flex-direction: column;
             }
+            ul {
+                padding: 0;
+            }
             .menu li a{
                 font-size: 1.25em; opacity: 1;
             }
@@ -501,7 +520,7 @@ footer{
     padding-top: 70px;
 }
     .group-text{
-        width: 650px;
+        width: 400px;
     }
         .people{
             display: flex;
@@ -520,50 +539,209 @@ footer{
             font-size: 2.5em; font-weight: bold; height: 188px; margin-top: 2px; line-height: 1.2; font-weight: 600;
         }
         .main-content-text p{
-            color: #fff; font-size: 1.5em; margin-top: 5px; margin-bottom: 5px; opacity: 0.7; font-weight: 400; line-height: 175%; letter-spacing: 0.06em;
-        }
-        .main-content-text p1 a{
-            color: #fff; font-size: 14; text-decoration: none; border: 1px #fff solid; border-radius: 50px; width: 166px; padding: 15px 24.5px;
+             font-size: 1.5em; margin-top: 2px; width: 300px; padding-left: 30px;
         }
         .button{
             display: flex;
-            justify-content: flex-start;
-            gap: 8px;
-            padding-top: 38px;
-            padding-bottom: 63px;
-        }
-        .button p{
-            font-weight: 500; font-size: 14px; letter-spacing: 0.03em; color: #fff;
-        }
-        .start{
-            display: flex;
-            justify-content: center;
-        }
-        a:hover.start{
-            background-color: #A856DA; border-color: #A856DA;
+            flex-direction: column;
+            gap: 10px;
+            padding-left: 30px;
+            padding-top: 30px;
+            padding-bottom: 53px;
         }
         .feedback{
             display: flex;
             flex-direction: column;
+            justify-content: center;
         }
         .feedback p{
-            color: #fff; font-size: 14;
+            color: #fff; font-size: 14; text-align: center;
         }
-        .feedback a{
-            padding-right: 0;
+/*вторая страница*/
+    .announcement{
+    padding: 0 0;   
+} 
+.announcement{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 100px;
+}
+headertype2{
+    display: flex;
+    flex-direction: column;
+    
+}
+headertype2{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+    headertype2 p{
+        margin-bottom: 10px;
+    }
+    .ads{
+        flex-direction: column;
+    }
+    .ads h2{
+        color: #000000; font-size: 1.25em;
+    }
+    .ads p1{
+        color: #000000; font-size: 1em;
+    }
+    .fifth-ad{
+        margin-top: 80px;
+    }
+    .sixth-ad{
+        margin-top: 80px;
+    }
+    .img-with-ep{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+    .img-with-ep img{
+        position: absolute;
+    }
+    .meet-host{
+    display: flex;
+}
+/*третья страница*/
+.meet-host{
+    padding-right: 0;
+    padding-left: 0;
+}
+.meet-host{
+    display: flex;
+    flex-direction: column;
+}
+    .meet-host img{
+        width: 370px;
+        height: 400px;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+    }
+    .text{
+        padding-left: 41px;
+    }
+        .text h1{
+            padding-bottom: 0; margin-bottom: 10px;
         }
-        .media{
+        .text p{
+            color: #4D4D4D; font-size: 1em; width: 330px;
+        }
+/*четвёртая страница*/
+.topics{
+    padding: 0 0;
+    padding-bottom: 50px;
+}
+    .topic-ad{
+        display: flex;
+        flex-direction: column;
+    }
+/*пятая страница*/
+.keep-in-touch{
+    padding-top: 0;
+    padding-bottom: 0;
+    background-image: url(./images/Rectangle\ 11.png), url(./images/Mask\ Group.png) ;
+    background-repeat: no-repeat, no-repeat;
+    background-blend-mode: screen;
+    border-radius: 15px;
+    width: 377px;
+    margin-left: 0px;
+}
+.keep-in-touch{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+}
+    .keep-in-touch h2{
+        text-align: center; width: 95%; font-size: 1.5em;
+    }
+    .keep-in-touch p{
+        text-align: start; padding-bottom: 40px; padding-left: 20px; font-size: 0.8em; width: 330px;
+    }
+        .email{
             display: flex;
-            align-items: center;
+            justify-content: start;
+            padding-bottom: 20px;
         }
-        .spotify{
-            margin-right: 33px;
+        .email input{
+              width: 110px; padding-right: px; position: relative; right: -20px; z-index: 1;
         }
-        .apple-podcasts{
-            margin-right: 33px;
+        .email button{
+            z-index: 2;
         }
-        .youtube{
-            margin-right: 33px;
+        .email input::placeholder{
+            color: #8A93B7;
         }
-            
+        .email button{
+                padding: 20px 20px;
+            }
+    /*слайдер*/
+.wrapper {
+    display: none;
+  }
+.wrapper2 {
+    padding-top: 20px;
+    width: 380px;
+    height: 300px;
+  }
+  .image-slider__image{
+    text-align: center;
+  }
+  .image-slider__image img{
+    max-width: 100%;
+  }
+  .mySwiper2 {
+    display: flex;
+    align-items: center;
+  }
+/*футер*/
+footer{
+    padding: 0 0;
+}
+    footer .blocks-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }  
+    footer .blocks-container h3{
+        text-align: center;
+    }    
+    .Sitemap{
+        width: 70px; text-align: center;
+    }
+    .Company{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        justify-content: center;
+    }
+    .Contact{
+        display: flex;
+        flex-direction: column;
+        width: 164px;
+        justify-self: center;
+    }
+    .contacts{
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        padding-left: 10px;
+    }
+    footer hr{
+        margin-bottom: 15px;
+        background: #B3B3B3;
+        color: #B3B3B3;
+    }
+    .last-part{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
