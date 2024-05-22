@@ -2,9 +2,6 @@
 body{
     font-family: Poppins;
 }
-*{
-    outline: 1px solid green !important; 
-}
 .page{
     width: 1440px;
     margin: auto;
