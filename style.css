@@ -572,7 +572,7 @@ footer{
             justify-content: center;
         }
         .main-content-text h1{
-            font-size: 2.5em; font-weight: bold; height: 188px; margin-top: 2px; line-height: 1.2; font-weight: 600; padding-right: 60px;
+            font-size: 2.5em; font-weight: bold; height: 188px; margin-top: 2px; line-height: 1.2; font-weight: 600; padding-left: 10px;
         }
         .main-content-text p{
              font-size: 1.5em; margin-top: 2px; width: 300px; padding-left: 30px;
@@ -594,7 +594,7 @@ footer{
             color: #fff; font-size: 14; text-align: center;
         }
         .media{
-            padding-right: 10px;
+            padding-left: 10px;
         }
 /*вторая страница*/
     .announcement{
@@ -621,10 +621,10 @@ headertype2{
         flex-direction: column;
     }
     .ads h2{
-        color: #000000; font-size: 1.25em;
+        color: #000000; font-size: 1.25em; padding-left: 10px;
     }
     .ads p1{
-        color: #000000; font-size: 1em;
+        color: #000000; font-size: 1em; padding-left: 10px;
     }
     .fifth-ad{
         margin-top: 80px;
@@ -637,9 +637,16 @@ headertype2{
         align-items: flex-end;
         justify-content: flex-end;
         flex-direction: row;
+        padding-right: 25px;
     }
     .img-with-ep img{
         position: absolute;
+    }
+    .podtext{
+        padding-left: 10px;
+    }
+    .begin{
+        padding-left: 5px;
     }
     .meet-host{
     display: flex;
@@ -678,6 +685,7 @@ headertype2{
     .topic-ad{
         display: flex;
         flex-direction: column;
+        padding-left: 10px;
     }
 /*пятая страница*/
 .keep-in-touch{
@@ -721,6 +729,9 @@ headertype2{
             }
     /*слайдер*/
 .wrapper {
+    display: none;
+  }
+  .wrapper3{
     display: none;
   }
 .wrapper2 {
