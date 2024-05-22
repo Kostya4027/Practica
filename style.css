@@ -403,7 +403,7 @@ footer{
         gap: 150px;
     }
     footer .blocks-container p{
-        color: #777678; font-size: 1em; width: 380px;  
+        color: #777678; font-size: 1em; max-width: 380px;  
     }
     footer .blocks-container h3{
         color: #000000; font-size: 1em;
@@ -527,6 +527,7 @@ footer{
             display: flex;
             align-items: center;
             flex-direction: column;
+            text-align: center;
         }
             .list{
                 display: flex;
@@ -540,7 +541,7 @@ footer{
                 padding: 0;
             }
             .menu li a{
-                font-size: 1.25em; opacity: 1;
+                font-size: 1.5em; opacity: 1;
             }
             .button1 p a{
                 width: 300px;  
@@ -756,7 +757,10 @@ footer{
         justify-content: center;
         align-items: center;
         gap: 10px;
-    }  
+    } 
+    .p-logo p{
+        max-width: 400px;
+    } 
     footer .blocks-container h3{
         text-align: center;
     }    
@@ -766,16 +770,14 @@ footer{
     .Company{
         display: flex;
         flex-direction: column;
-        width: 100px;
         justify-content: center;
+        text-align: center;
     }
     .Contact{
         display: flex;
         flex-direction: column;
-        justify-self: center;
-    }
-    footer .blocks-container p{
-        max-width: 100px;
+        justify-content: center;
+        text-align: center;
     }
     .contacts{
         display: flex;
