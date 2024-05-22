@@ -48,8 +48,8 @@ header{
         .button1{
             display: flex;  
         }
-        .button1 p a{
-            color: #fff; font-size: 0.9em; text-decoration: none; ; border: 1px #fff solid; border-radius: 50px; width: 127px; padding:10px 40px; font-weight: 400; letter-spacing: 0.05em;
+        .button1 p a{ 
+            color: #fff; font-size: 0.9em; text-decoration: none; ; border: 1px #fff solid; border-radius: 50px; width: 127px; padding:10px 40px; font-weight: 400; letter-spacing: 0.05em; text-align: center; margin-left: 14px;
         }
         a:hover.sign-up{
             background-color: #A856DA; border-color: #A856DA;
