@@ -15,3 +15,12 @@ new Swiper('.image-slider2',{
         el : ".swiper-pagination"
     }
 });
+
+new Swiper('.image-slider3',{
+    loop: true,
+    slidesPerGroup: 3,
+    spaceBetween: 0,
+    navigation: {
+        el : ".swiper-pagination"
+    }
+});

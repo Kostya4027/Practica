@@ -2,6 +2,9 @@
 body{
     font-family: Poppins;
 }
+*{
+    outline: 1px solid green !important; 
+}
 .page{
     width: 1440px;
     margin: auto;
@@ -389,6 +392,9 @@ headertype2{
 .swiper-mySwiper2{
     display: none;
 }
+.mySwiper3{
+    display: none;
+}
 /*футер*/
 footer{
     padding: 0 122px;
@@ -414,6 +420,9 @@ footer{
     }       
     footer .blocks-container ul li a{
         color: #4D4D4D; text-decoration: none; 
+    }
+    footer .blocks-container p{
+        max-width: 170px;
     }
     .Sitemap{
         width: 70px;
@@ -458,8 +467,34 @@ footer{
     .last-part p1{
         color: #666666; font-size: 0.9em;
     }
+    .Company{
+        width: 110px;
+    }
     
 /*адаптация*/
+@media screen and (max-width: 1600px){
+    .wrapper {
+        display: none;
+      }
+      .swiper-mySwiper2{
+        display: none;
+    }
+    .wrapper3 {
+        padding-top: 20px;
+        width: 500px;
+        height: 300px;
+      }
+      .image-slider__image{
+        text-align: center;
+      }
+      .image-slider__image img{
+        max-width: 100%;
+      }
+      .mySwiper3 {
+        display: flex;
+        align-items: center;
+      }
+}
 @media screen and (max-width: 430px) { 
     body{
         margin: 0 0;
@@ -471,6 +506,7 @@ footer{
     .page{
         width: 412px;
         padding: 0px 0px;
+        margin: 0px 0px;
     }
     /*первая страница*/
     .banner{
@@ -536,7 +572,7 @@ footer{
             justify-content: center;
         }
         .main-content-text h1{
-            font-size: 2.5em; font-weight: bold; height: 188px; margin-top: 2px; line-height: 1.2; font-weight: 600;
+            font-size: 2.5em; font-weight: bold; height: 188px; margin-top: 2px; line-height: 1.2; font-weight: 600; padding-right: 60px;
         }
         .main-content-text p{
              font-size: 1.5em; margin-top: 2px; width: 300px; padding-left: 30px;
@@ -556,6 +592,9 @@ footer{
         }
         .feedback p{
             color: #fff; font-size: 14; text-align: center;
+        }
+        .media{
+            padding-right: 10px;
         }
 /*вторая страница*/
     .announcement{
@@ -725,8 +764,10 @@ footer{
     .Contact{
         display: flex;
         flex-direction: column;
-        width: 164px;
         justify-self: center;
+    }
+    footer .blocks-container p{
+        max-width: 100px;
     }
     .contacts{
         display: flex;
