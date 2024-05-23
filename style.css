@@ -685,7 +685,9 @@ headertype2{
     .topic-ad{
         display: flex;
         flex-direction: column;
-        padding-left: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
 /*пятая страница*/
 .keep-in-touch{
@@ -696,7 +698,7 @@ headertype2{
     background-blend-mode: screen;
     border-radius: 15px;
     width: 377px;
-    margin-left: 18px;
+    margin: 0 auto;
 }
 .keep-in-touch{
     display: flex;
